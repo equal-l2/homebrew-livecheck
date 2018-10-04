@@ -47,6 +47,7 @@ def version_euristic(urls, regex = nil)
     when url =~ %r{(sourceforge\.net|sf\.net)/} && !url.include?("mikmod") &&
                                                    !url.include?("log4cpp") &&
                                                    !url.include?("exiftool") &&
+                                                   !url.include?("liba52") &&
                                                    !url.include?("libwps") &&
                                                    !url.include?("gsmartcontrol") &&
                                                    !url.include?("e2fsprogs") &&
